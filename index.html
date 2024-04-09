@@ -2,38 +2,50 @@
 <html>
 
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <title>Global Tech Founders | Home</title>
+    <meta name="description" content="A Catalog of Global Tech Startup Founders">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
-    <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container">
-        
-    </div>
-    <div class="card" style="display: none;">
+<header class="main-header">
+    <h1 class="title">Global Tech Founders</h1>
+
+</header>
+<div id="search-container">
+    <label for="search-input"></label><input type="text" id="search-input" placeholder="Search for a founder...">
+    <button id="search-button">Search</button>
+</div>
+<div id="card-container">
+
+</div>
+<div id="navigation-buttons">
+    <button id="prev-button">Previous</button>
+    <button id="remove-button">Remove</button>
+    <button id="next-button">Next</button>
+</div>
+
+<template id="founder-template">
+    <div class="cards">
         <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
+            <h2>Founder's Name</h2>
+            <img src="" alt="Picture of Tech Founder">
+            <p>Company: <span class="company-name">Holder</span></p>
+            <p>Industry: <span class="industry">Holder</span></p>
+            <p>Country: <span class="country">Holder</span></p>
+            <p>Background: <span class="background">Holder</span></p>
+            <p>Contribution: <span class="contribution">Holder</span></p>
+            <p> Networth: <span class="networth">Holder</span></p>
+            <a href=" " class="website">Visit Website</a>
+
         </div>
     </div>
-    <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
-        </button>
-    </div>
+</template>
+
+<footer class="footer">
+    <p>&copy; 2024 Global Tech Founders.</p>
+</footer>
 </body>
 
 </html>

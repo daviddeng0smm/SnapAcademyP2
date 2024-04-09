@@ -2,69 +2,107 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .3);
-    padding-bottom: 10px;
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .title {
-    text-align: center;
-    margin: 0;
-    font-size: 8em;
-    font-family: "Helvetica";
-    font-weight: normal;
-    color: white;
+    color: #fff;
+    font-size: 3em;
 }
 
 #card-container {
     display: flex;
-    justify-content: center;
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 5px;
+
+.cards {
+    width: 700px;
+    height: 900px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.cards:hover {
+    transform: scale(1.03);
 }
 
 .card-content {
     padding: 20px;
-    font-family: "Verdana";
-    color: #777;
+}
+
+.cards img {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
 }
 
 .card-content h2 {
-    margin-top: 0;
-    font-size: 20px;
+    color: #333;
 }
 
-.card img {
-    width: 100%;
-    height: auto;
+#search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 20%;
+}
+
+#search-button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#navigation-buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+#navigation-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+
+a.website {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, .3);
-    padding: 10px;
-}
-
-button {
-    text-align: center;
-    background-color: #666;
-    border: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 40px;
-    border-radius: 10px;
+    background-color: #333;
     color: white;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 5px;
+    padding: 20px;
+    text-align: center;
 }
