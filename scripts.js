@@ -12,18 +12,6 @@ let founders = [
     },
 
     {
-        name: "Wen Wu",
-        company: "Not sure yet",
-        industry: "Social Media",
-        country: "United States",
-        background: "Current student at University of California Irvine studying Mechanical Engineer.",
-        contribution: "He's sort of funny sometimes but he wanted to be on this project.",
-        image: "https://media.licdn.com/dms/image/C5603AQGpmSQW6IewGA/profile-displayphoto-shrink_800_800/0/1661587169425?e=1718236800&v=beta&t=zkPH9MDcpjaRwseptQGTYgAD3rgwVcMjFdmpd_giAto",
-        website: "https://www.linkedin.com/in/-jiahaodeng/",
-        networth: "1 Subway Sandwich(half foot)",
-    },
-
-    {
         "name": "Evan Spiegel",
         "company": "Snap Inc.",
         "industry": "Social Media",
