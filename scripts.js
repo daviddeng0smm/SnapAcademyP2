@@ -31,7 +31,7 @@ let founders = [
         country: "United States",
         background: "Current student at University of California Irvine studying Software Engineering. Will be known as one of the pioneers of decision making",
         contribution: "Will be a pioneer and revolutionize the process of decisions, making it easier to and effortless to make simple day to day decisions.",
-        image: "https://previews.dropbox.com/p/thumb/ACMwgbrJe0z1_Vs3hPMOZKJVywhoQ1mPKWBGNscJ2yqJW0NZI18_SVbsz-Z6zPTs0T8IutE3g1BmaXYpS5y5ErFYXnXN6AeFsnFMdyn6uUHbKYGCcVRMuzYwIyX7tIOjbWSRklWEht2o5kOV8Fam8xf3dgPxn3PtaSw34miEos6-Zys_cwgEAQnt39ns4h_YY0WDLxgW1X8oCZhNlInvd_nogyMn_KIpMtYDNdf_CilpgvyGxJwMe6wZ5ZAofIGn5Mqw3qcOkpwO03T--fwXrv9LYWdYIWhCV1I6jFT_NwElT_YiKvZHNZz2LTd0-LuYMT_ua3zzZ2PWCqc_2rWDBrTXb8O3HXj1FJ4A3LiUylMtQA/p.png",
+        image: "https://uc993976c1768257d77b87ab2577.previews.dropboxusercontent.com/p/thumb/ACMFLQxCEIi4wU2ZVZpk_a55O9TQoXahRm2UwZifdi5ezn0ZgIKEEhENIvZjXcs6T8Bk49r1uJ-QeIEupFyH-eD7d2PbTl8R3JnxNQ-lFvBH7hFW363KUu_ZKnIffNVSKgDvf5PGLMCcStKfEcKDyplOOtMDBjaYYPwvC2qzLUnNUTJpO5hNWvZkC33GqReo2Lnk__xyL5yc582ANF_mTZZ-9hcRo2ObjTc0CUkH-Sh1sTbvojzpOjq3-SUNiUrBi2_6_-OeyDQH-IU8L96Do3RtLMRVxc8YG9R3MiytnMrUeYibV4qrvFujb-5nirRESIf_bqLlkjm8RcP6QNbu3hNdGaXKQ3-pzsBHZyn81PHMBR3nvF6nTANrsTM28VAbrsCqcSHOWk0dhdKm2obZMev2/p.jpeg",
         website: "https://www.linkedin.com/in/-jiahaodeng/",
         networth: "$20.67",
     },
