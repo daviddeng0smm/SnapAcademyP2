@@ -31,7 +31,7 @@ let founders = [
         country: "United States",
         background: "Current student at University of California Irvine studying Software Engineering. Will be known as one of the pioneers of decision making",
         contribution: "Will be a pioneer and revolutionize the process of decisions, making it easier to and effortless to make simple day to day decisions.",
-        image: "https://uc993976c1768257d77b87ab2577.previews.dropboxusercontent.com/p/thumb/ACMiItXVlPvlgvBMpkCOQJ18WueXVxpnDOWjmSFNXTfOT18kyPI4FE23qJj4hS8ANQE0OJpG2WUDsLZyGyjhAzHbcaMVOw_VTLILfvg0LczAw7rijO2QJd3ISWGolZATchNJVn7ExdS3Mr1BPLyIKfDBvDRvr1wTUUr4ooQW86L_69Ivpu3E64kEzyvJJCN_RsXXQPzszYs2RDXbmxGENCahIIK4zZSeWcqOW4ljSTEkoXMVLmfLrDngs7zz6UEia8ozxtmJ5vkO9L_xXEJPiqEHoi2RJGagkxYay6GJUAJC7HPM9IoNMFL2iyZFJL8K1LKsZTvNw1H8ZV8k1n3grzDWreGs2GWvXhiDI_mzi06mtqGbGIDlkNSlIaRY0V20--E/p.jpeg",
+        image: "Jiahao_Profile.jpg",
         website: "https://www.linkedin.com/in/-jiahaodeng/",
         networth: "$20.67",
     },
