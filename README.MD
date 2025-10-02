@@ -1,45 +1,145 @@
-# SEA Stage 2 - Data Catalog Project
+# Global Tech Founders Catalog
 
-This is the instructions, requirements, and starter for stage two of the Snap Engineering Academy application process.
+A comprehensive web catalog showcasing influential tech founders from around the world. This interactive website displays detailed profiles of 50+ technology entrepreneurs who have shaped the digital landscape.
 
-## Your Task:
+## About
 
-<h3 align="center">Create a "catalog" website for something you're passionate about.</h1>
+This project is a data catalog website that celebrates the achievements of global technology founders. From social media pioneers like Mark Zuckerberg and Evan Spiegel to e-commerce giants like Jeff Bezos and Jack Ma, the catalog provides insights into their backgrounds, contributions, and impact on the tech industry.
 
-> [!NOTE]
-> If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
+## Features
 
-## Requirements - Your Catalog Website Should...
+- **Comprehensive Database**: Profiles of 50+ tech founders with detailed information including:
+  - Company and industry
+  - Country of origin
+  - Background and education
+  - Key contributions to technology
+  - Net worth
+  - Links to company websites
 
- - Show off your understanding of basic data structures: arrays and objects.  
- - Display a substantial amount of interesting data in a "Catalog"! You can look online for datasets or make your own. Your data should be easy to find in your source code, held either in variables defined at the top of scripts.js or imported from a file you added.  
- - Have two or more features that “operate” on your data, modifying the data and how you display it. Data “operations” are things like filtering, searching, sorting, updating, adding, removing and so on. *Imagine what users would want to do while using your catalog website, and make it a feature!*  
- - Look polished. Use HTML and CSS to customize how you display your data. Display your data thoughtfully, as it’s much more useful that way!  
- - Be built from this starter code, though you can change anything you like. *The starter code shows a simple example of a data catalog website and introduces you to JS/html/css, but you should be making significant changes and improvements.*  
- - Be an original website. Please do not submit something you’ve already done for a school project, internship, or client. *Using online resources for reference and guidance is encouraged, but be a responsible developer and make sure you understand every line of code in your project.*
+- **Search Functionality**: Quickly find specific founders by name using the search bar
 
+- **Interactive Navigation**: Browse through founder profiles using Previous/Next buttons
+
+- **Dynamic Card Display**: Each founder's information is presented in a clean, card-based layout
+
+- **Remove Feature**: Ability to remove founders from the current view
+
+## Tech Stack
+
+- **HTML5**: Structure and layout
+- **CSS3**: Styling and responsive design
+- **JavaScript (Vanilla)**: Dynamic functionality and data manipulation
+- **No frameworks**: Built with pure web technologies
+
+## Project Structure
+
+```
+SnapAcademyP2/
+├── index.html          # Main HTML file with page structure
+├── style.css           # Styling for the catalog
+├── scripts.js          # JavaScript with data and functionality
+├── Jiahao_Profile.jpg  # Profile image
+├── LICENSE             # MIT License
+└── README.md           # Project documentation
+```
 
 ## Getting Started
 
-1. Create a Github account if you haven't already.
+### Prerequisites
 
-2. Click the green "Use as Template" button in the upper right corner, then choose the "create a new repository" option.  
-  a. Choose yourself as the owner  
-  b. Give your repository a name  
-  c. Click "Create Repository"  
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- A text editor (VS Code, Sublime Text, Atom, etc.)
 
-3. Copy or Download the repository files to your own computer. There are many ways to do this, it's up to you!
+### Installation
 
-4. Start editing the website by using a text editor for the `index.html`, `style.css`, and `scripts.js` files. As you edit, preview your website by opening `index.html` with your web browser (double clicking `index.html` should open it in a web browser). When you're done, you should see something like this:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/daviddeng0smm/SnapAcademyP2.git
+   ```
 
-<img height="300" alt="Screenshot 2024-03-27 at 12 51 33 PM" src="https://github.com/Snap-Engineering-Academy-2023/rn_lab1/assets/7607483/fdd57236-50fe-48ca-956d-d9b4b12db038">
+2. Navigate to the project directory:
+   ```bash
+   cd SnapAcademyP2
+   ```
 
-## Submitting
+3. Open `index.html` in your web browser:
+   - Double-click the file, or
+   - Right-click and select "Open with" your preferred browser
 
-1. Publish your website to the internet! You can use any method you like, but we recommend [Github Pages.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
+### Usage
 
-2. Test the published version of your website! Sometimes code that works on your computer won't work when it's published to the internet. The published site is what we'll be looking at, so you need to be absolutely sure it works properly. 
+1. **Browse Founders**: Use the "Previous" and "Next" buttons to navigate through the catalog
+2. **Search**: Type a founder's name in the search box and click "Search"
+3. **Remove**: Click the "Remove" button to remove the current founder from the view
+4. **Visit Websites**: Click the "Visit Website" link on any card to go to the founder's company website
 
-3. Update your Github repository so it has the most recent version of your website's source code.
+## Deployment
 
-4. Submit the URL to your published website and the link to your Github repository to the google form in your email.
+This website can be deployed using GitHub Pages:
+
+1. Go to your repository settings
+2. Navigate to the "Pages" section
+3. Select the branch to deploy (usually `main`)
+4. Save, and your site will be live at `https://[username].github.io/SnapAcademyP2`
+
+## Data Structure
+
+The project uses a JavaScript array of founder objects, each containing:
+
+```javascript
+{
+  name: "Founder Name",
+  company: "Company Name",
+  industry: "Industry Type",
+  country: "Country",
+  background: "Educational and professional background",
+  contribution: "Key contributions to technology",
+  image: "Image URL",
+  website: "Company website URL",
+  networth: "Net worth"
+}
+```
+
+## Featured Founders
+
+The catalog includes notable figures such as:
+- Jiahao (David) Deng (UCI Student)
+- Evan Spiegel (Snap Inc.)
+- Mark Zuckerberg (Facebook/Meta)
+- Jeff Bezos (Amazon)
+- Elon Musk (Tesla, SpaceX)
+- And 45+ more influential tech leaders
+
+## Future Enhancements
+
+Potential improvements for future versions:
+- Sorting functionality (by net worth, industry, country)
+- Filtering by industry or country
+- Add founder functionality
+- Detailed view modal
+- Responsive mobile design improvements
+- Backend database integration
+
+## Contributing
+
+This is a personal project for the Snap Engineering Academy. Contributions, issues, and feature requests are welcome for educational purposes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built as part of the Snap Engineering Academy Stage 2 application process
+- Inspired by influential technology entrepreneurs worldwide
+- Profile images sourced from public domain and news outlets
+
+## Contact
+
+**Jiahao (David) Deng**
+- LinkedIn: [linkedin.com/in/-jiahaodeng](https://www.linkedin.com/in/-jiahaodeng/)
+- Institution: University of California, Irvine
+
+---
+
+*This project demonstrates proficiency in HTML, CSS, JavaScript, data structures, and web development fundamentals.*
